@@ -1,3 +1,7 @@
+h1 {
+  text-align: center;
+}
+
 h2 {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -17,25 +21,35 @@ p {
   padding: 50px
 }
 
-.miniBorder {
-  border: 5px outset #9c9a9a;
+.topBar1 {
   font-family: Arial, Helvetica, sans-serif;
   position: sticky;
   top: 0;
   padding: 10px 16px;
   background: #555;
   color: #f1f1f1;
+  display: inline-block;
+  width: 1350px;
+}
+
+.topBar2 {
+  font-family: Arial, Helvetica, sans-serif;
+  position: sticky;
+  top: 0;
+  padding: 10px 16px;
+  background: #555;
+  color: #f1f1f1;
+  display: inline-block;
+  width: 200px;
 }
 
 .imageBorder {
-  border: 10px outset #9c9a9a;
   margin-top: 150px;
   height: 791px;
   width: 1024px;
 }
 
 .imageBorder2 {
-  border: 10px outset #9c9a9a;
   margin-top: 150px;
   width: 800px;
   height: 700px;
@@ -44,16 +58,15 @@ p {
 .P1 {
   margin-top: 150px;
   margin-left: 1100px;
-  border: 10px outset #9c9a9a;
   text-align: center;
   height: 791px;
+  width: 564px;
   background-image: linear-gradient(#974212, #e5c38c, #6c8c3c);
 }
 
 .P2 {
   margin-top: 160px;
   margin-right: 1100px;
-  border: 10px outset #9c9a9a;
   text-align: center;
   height: 791px;
   background-image: linear-gradient(#88a1c3, #9c4438, #455067);
@@ -62,7 +75,6 @@ p {
 .P3 {
   margin-top: 160px;
   margin-left: 1100px;
-  border: 10px outset #9c9a9a;
   text-align: center;
   height: 791px;
   background-image: linear-gradient(#4d170b, #b37e1a, #5a4420);
@@ -71,7 +83,6 @@ p {
 .P4 {
   margin-top: 160px;
   margin-right: 1100px;
-  border: 10px outset #9c9a9a;
   text-align: center;
   height: 791px;
   background-image: linear-gradient(#337558, #92a965, #9c9320);
@@ -80,7 +91,6 @@ p {
 .P5 {
   margin-top: 160px;
   margin-left: 1100px;
-  border: 10px outset #9c9a9a;
   text-align: center;
   height: 791px;
   background-image: linear-gradient(#983338, #d2a834, #1797b5);
@@ -89,13 +99,12 @@ p {
 .foot {
   margin-top: 130px;
   background-color: #a1a1a1;
-  border: 5px outset #a1a1a1;
   font-family: Arial, Helvetica, sans-serif;
   padding: 10px 16px;
   color: black;
 }
 
-.divbob {
+.flash {
   animation-name: example;
   animation-duration: 4s;
   animation-iteration-count: 500;
